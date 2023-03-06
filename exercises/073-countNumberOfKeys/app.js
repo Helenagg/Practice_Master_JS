@@ -9,6 +9,7 @@ let obj = {
 
 function countNumberOfKeys(obj) {
     // your code here
-   
+   let prop = Object.keys(obj).length;
+    return prop;
 }
 console.log(countNumberOfKeys(obj))
